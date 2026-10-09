@@ -11,6 +11,28 @@
 *.sln.docstates
 *.env
 
+# Secretos y entorno
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Dependencias y compilación
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+
+# Logs y temporales
+*.log
+.DS_Store
+.cache/
+
+# Cobertura y testing
+coverage/
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
